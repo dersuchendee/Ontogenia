@@ -2,7 +2,7 @@ import pandas as pd
 import openai
 import logging
 from datetime import datetime
-openai.api_key = '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'
+openai.api_key = 'APIKEY'
 
 logging.basicConfig(filename='ontology_design.log', level=logging.INFO)
 
