@@ -1,0 +1,494 @@
+
+
+```xml
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#"
+     xml:base="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:agentrole="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#"
+     xmlns:aquaticresources="http://www.ontologydesignpatterns.org/cp/owl/fsdas/aquaticresources.owl#"
+     xmlns:climaticzone="http://www.ontologydesignpatterns.org/cp/owl/fsdas/climaticzone.owl#"
+     xmlns:collectionentity="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#"
+     xmlns:partof="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#"
+     xmlns:linnaeantaxonomy="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl#"
+     xmlns:specieseat="http://www.ontologydesignpatterns.org/cp/owl/fsdas/specieseat.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl">
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/aquaticresources.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/climaticzone.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/specieseat.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"/>
+    </owl:Ontology>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add individuals here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add annotation properties here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add object properties here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add data properties here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add classes here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add general axioms here if needed -->
+</rdf:RDF>
+```
+Please note that this ontology is a skeleton that imports the ontologies provided in the previous output. You can add individuals, annotation properties, object properties, data properties, classes, and general axioms as needed to fulfill the competency questions and requirements of your domain.
+
+```xml
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#"
+     xml:base="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:agentrole="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#"
+     xmlns:aquaticresources="http://www.ontologydesignpatterns.org/cp/owl/fsdas/aquaticresources.owl#"
+     xmlns:climaticzone="http://www.ontologydesignpatterns.org/cp/owl/fsdas/climaticzone.owl#"
+     xmlns:collectionentity="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#"
+     xmlns:partof="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#"
+     xmlns:linnaeantaxonomy="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl#"
+     xmlns:specieseat="http://www.ontologydesignpatterns.org/cp/owl/fsdas/specieseat.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl">
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/aquaticresources.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/climaticzone.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/specieseat.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"/>
+    </owl:Ontology>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add individuals here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add annotation properties here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add object properties here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add data properties here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add classes here if needed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Add general axioms here if needed -->
+</rdf:RDF>
+```
+
+```xml
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#"
+     xml:base="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:agentrole="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#"
+     xmlns:aquaticresources="http://www.ontologydesignpatterns.org/cp/owl/fsdas/aquaticresources.owl#"
+     xmlns:climaticzone="http://www.ontologydesignpatterns.org/cp/owl/fsdas/climaticzone.owl#"
+     xmlns:collectionentity="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#"
+     xmlns:partof="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#"
+     xmlns:linnaeantaxonomy="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl#"
+     xmlns:specieseat="http://www.ontologydesignpatterns.org/cp/owl/fsdas/specieseat.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl">
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/aquaticresources.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/climaticzone.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/specieseat.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"/>
+    </owl:Ontology>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example individuals for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#Shrimp -->
+    <aquaticresources:AquaticSpecies rdf:about="#Shrimp">
+        <rdfs:label>Shrimp</rdfs:label>
+    </aquaticresources:AquaticSpecies>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#Seals -->
+    <aquaticresources:AquaticSpecies rdf:about="#Seals">
+        <rdfs:label>Seals</rdfs:label>
+    </aquaticresources:AquaticSpecies>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#TropicalHabitat -->
+    <climaticzone:ClimaticZone rdf:about="#TropicalHabitat">
+        <rdfs:label>Tropical Habitat</rdfs:label>
+    </climaticzone:ClimaticZone>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#CountryA -->
+    <collectionentity:Collection rdf:about="#CountryA">
+        <rdfs:label>Country A</rdfs:label>
+    </collectionentity:Collection>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example annotation properties for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#commonName -->
+    <owl:AnnotationProperty rdf:about="#commonName">
+        <rdfs:label>common name</rdfs:label>
+    </owl:AnnotationProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example object properties for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#livesIn -->
+    <owl:ObjectProperty rdf:about="#livesIn">
+        <rdfs:label>lives in</rdfs:label>
+        <rdfs:domain rdf:resource="&aquaticresources;AquaticSpecies"/>
+        <rdfs:range rdf:resource="&collectionentity;Collection"/>
+    </owl:ObjectProperty>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#hasHabitat -->
+    <owl:ObjectProperty rdf:about="#hasHabitat">
+        <rdfs:label>has habitat</rdfs:label>
+        <rdfs:domain rdf:resource="&aquaticresources;AquaticSpecies"/>
+        <rdfs:range rdf:resource="&climaticzone;ClimaticZone"/>
+    </owl:ObjectProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example data properties for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#hasPopulation -->
+    <owl:DatatypeProperty rdf:about="#hasPopulation">
+        <rdfs:label>has population</rdfs:label>
+        <rdfs:domain rdf:resource="&aquaticresources;AquaticSpecies"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example classes for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#Country -->
+    <owl:Class rdf:about="#Country">
+        <rdfs:label>Country</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&collectionentity;Collection"/>
+    </owl:Class>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#Habitat -->
+    <owl:Class rdf:about="#Habitat">
+        <rdfs:label>Habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&climaticzone;ClimaticZone"/>
+    </owl:Class>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example general axioms for demonstration purposes -->
+    <!-- Same habitat axiom -->
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Shrimp"/>
+            <rdf:Description rdf:about="#Seals"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+
+    <owl:AllDifferent>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="#CountryA"/>
+            <rdf:Description rdf:about="#TropicalHabitat"/>
+        </owl:distinctMembers>
+    </owl:AllDifferent>
+</rdf:RDF>
+```
+
+```xml
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#"
+     xml:base="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:agentrole="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#"
+     xmlns:aquaticresources="http://www.ontologydesignpatterns.org/cp/owl/fsdas/aquaticresources.owl#"
+     xmlns:climaticzone="http://www.ontologydesignpatterns.org/cp/owl/fsdas/climaticzone.owl#"
+     xmlns:collectionentity="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#"
+     xmlns:partof="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#"
+     xmlns:linnaeantaxonomy="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl#"
+     xmlns:specieseat="http://www.ontologydesignpatterns.org/cp/owl/fsdas/specieseat.owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl">
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/aquaticresources.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/climaticzone.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/fsdas/specieseat.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl"/>
+    </owl:Ontology>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example individuals for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#EndangeredShark -->
+    <aquaticresources:AquaticSpecies rdf:about="#EndangeredShark">
+        <rdfs:label>Endangered Shark</rdfs:label>
+        <specieseat:feedsUpon rdf:resource="#Seals"/>
+        <specieseat:isPreyedUponBy rdf:resource="#Orca"/>
+        <climaticzone:hasClimaticZone rdf:resource="#TemperateHabitat"/>
+        <collectionentity:isMemberOf rdf:resource="#CountryB"/>
+        <linnaeantaxonomy:hasDirectHigherRank rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl#Genus"/>
+    </aquaticresources:AquaticSpecies>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#EndangeredWhale -->
+    <aquaticresources:AquaticSpecies rdf:about="#EndangeredWhale">
+        <rdfs:label>Endangered Whale</rdfs:label>
+        <specieseat:feedsUpon rdf:resource="#Shrimp"/>
+        <climaticzone:hasClimaticZone rdf:resource="#PolarHabitat"/>
+        <collectionentity:isMemberOf rdf:resource="#CountryC"/>
+        <linnaeantaxonomy:hasDirectHigherRank rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/linnaeantaxonomy.owl#Family"/>
+    </aquaticresources:AquaticSpecies>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#TemperateHabitat -->
+    <climaticzone:ClimaticZone rdf:about="#TemperateHabitat">
+        <rdfs:label>Temperate Habitat</rdfs:label>
+    </climaticzone:ClimaticZone>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#PolarHabitat -->
+    <climaticzone:ClimaticZone rdf:about="#PolarHabitat">
+        <rdfs:label>Polar Habitat</rdfs:label>
+    </climaticzone:ClimaticZone>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#CountryB -->
+    <collectionentity:Collection rdf:about="#CountryB">
+        <rdfs:label>Country B</rdfs:label>
+    </collectionentity:Collection>
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#CountryC -->
+    <collectionentity:Collection rdf:about="#CountryC">
+        <rdfs:label>Country C</rdfs:label>
+    </collectionentity:Collection>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example annotation properties for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#conservationStatus -->
+    <owl:AnnotationProperty rdf:about="#conservationStatus">
+        <rdfs:label>conservation status</rdfs:label>
+    </owl:AnnotationProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example object properties for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#hasConservationStatus -->
+    <owl:ObjectProperty rdf:about="#hasConservationStatus">
+        <rdfs:label>has conservation status</rdfs:label>
+        <rdfs:domain rdf:resource="&aquaticresources;AquaticSpecies"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:ObjectProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example data properties for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#populationCount -->
+    <owl:DatatypeProperty rdf:about="#populationCount">
+        <rdfs:label>population count</rdfs:label>
+        <rdfs:domain rdf:resource="&aquaticresources;AquaticSpecies"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example classes for demonstration purposes -->
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/fsdas/ontology.owl#EndangeredSpecies -->
+    <owl:Class rdf:about="#EndangeredSpecies">
+        <rdfs:label>Endangered Species</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&aquaticresources;AquaticSpecies"/>
+    </owl:Class>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Example general axioms for demonstration purposes -->
+    <!-- Endangered species axiom -->
+    <owl:Class rdf:about="#EndangeredSpecies">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasConservationStatus"/>
+                <owl:hasValue>"Endangered"</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+```
