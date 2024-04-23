@@ -11,6 +11,13 @@ Ontogenia is a Python-based project focused on exploring ontology generation and
 - **ontology_design.log**: Logs details of the ontology design process experiments.
 - **thematic_groups.json**: JSON file containing thematic groups information.
 
+### Data files overview
+#### Files Description
+- **CQs.csv**: This CSV file contains competency questions that are used to guide the ontology generation experiment.
+- **patterns.csv**: This file lists ontology design patterns in CSV format used in the experiment.
+- **procedure.txt**: A text file detailing the Metacognitive Prompting procedure.
+
+
 ### code-basic-cqs.py: Overview
 
 #### Overview
