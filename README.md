@@ -31,11 +31,32 @@ This script is designed to automate ontology generation by integrating OpenAI's 
 #### Usage
 To run the script, simply execute the main function with the desired settings for trial iterations and data paths. The script can handle different configurations such as only CQs, CQs with patterns, or procedure-based generation to accommodate various experimental setups.
 
+### code-thematic-cqs.py Overview
+
+#### Overview
+This script facilitates ontology generation using OpenAI's GPT models. It processes and categorizes competency questions (CQs) from a string or CSV file, employs OpenAI's API to generate ontology segments, and compiles these into comprehensive .owl files while maintaining detailed logs.
+
+#### Key Components
+- **Import Modules**: Uses pandas for data handling, openai for AI interactions, and logging for process tracking.
+- **Read Data**: Reads procedures and CQs from files, splitting CQs into thematic groups if needed.
+- **Ontology Generation**: Constructs prompts from CQs and generates ontologies using structured interaction with an AI model.
+- **Logging and Output**: Logs detailed information about the process and saves the generated ontology to a file.
+
+#### Workflow
+1. **Initialize and Read Data**: The script begins by reading necessary data and configurations.
+2. **Process and Categorize CQs**: CQs are either read from a CSV or directly from a string and categorized into thematic groups.
+3. **Generate Ontology**: For each group of CQs, a prompt is created and processed through the AI model to generate ontology data.
+4. **Compile and Save Output**: Outputs from each group are compiled into a single file, logged, and saved in the designated output directory.
+
+#### Execution
+Execute the script by running the `main` function with the required configurations. The script supports multiple trials with different configurations for thorough testing and refinement of ontology generation.
+
 
 ## How to Use
 1. Clone the repository.
 2. Ensure Python is installed on your machine.
 3. Run the scripts to perform ontology generation tasks.
+
 
 ## Contributing
 Contributions are welcome. Please open an issue to discuss your ideas or submit a pull request.
