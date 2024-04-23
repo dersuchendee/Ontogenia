@@ -11,8 +11,7 @@ Ontogenia is a Python-based project focused on exploring ontology generation and
 - **ontology_design.log**: Logs details of the ontology design process experiments.
 - **thematic_groups.json**: JSON file containing thematic groups information.
 
-### code-basic-cqs.py
-# Ontogenia Python Script Overview
+### code-basic-cqs.py: Overview
 
 #### Overview
 This script is designed to automate ontology generation by integrating OpenAI's language model, data handling with pandas, and detailed logging. It facilitates the reading, processing, and application of competency questions (CQs) to generate ontologies using specific patterns and procedures.
