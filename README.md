@@ -3,6 +3,13 @@
 ## Overview
 Ontogenia is a Python-based project focused on exploring ontology generation and management. This repository includes scripts and data essential for conducting complex query solutions and thematic ontology constructions.
 
+## Resources
+
+[A brief Ontogenia explanation at ESWC 2024]((https://2024.eswc-conferences.org/wp-content/uploads/2024/04/ESWC_2024_paper_311.pdf
+))
+[ESWC 2024 Ontogenia Poster](ESWC%20Ontogenia%20poster(2).pdf)
+
+
 ## Repository Structure
 - **code-basic-cqs.py**: Script for basic complex queries.
 - **code-thematic-cqs.py**: Script for thematic complex queries.
